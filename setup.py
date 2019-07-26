@@ -1,7 +1,7 @@
 from distutils.core import setup
 setup(
   name = 'pyvec',         
-  packages = ['pyvec'],   
+  py_modules=["iters", "vector"],  
   version = '0.1',     
   license='MIT',       
   description = 'Poor c++ vector implementation for python',   

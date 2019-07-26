@@ -1,16 +1,15 @@
 from distutils.core import setup
 setup(
-  name = 'pyvector',         
-  packages = ['pyvector'],   
+  name = 'pyvec',         
+  packages = ['pyvec'],   
   version = '0.1',     
   license='MIT',       
   description = 'Poor c++ vector implementation for python',   
   author = 'cvsae',                  
   author_email = 'cvsc@gmx.com',     
-  url = 'https://github.com/cvsar/pyvector',   
-  download_url = 'https://github.com/cvsae/pyvector/archive/v_01.tar.gz',
+  url = 'https://github.com/cvsae/pyvec',   
+  download_url = 'https://github.com/cvsae/pyvec/archive/v_01.tar.gz',
   keywords = ['vector', 'python', 'c++', "implementation"],   
-  install_requires=[],
   classifiers=[
     'Development Status :: 3 - Alpha',      
     'Topic :: Software Development :: Build Tools',    'License :: OSI Approved :: MIT License',   

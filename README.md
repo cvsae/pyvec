@@ -1,5 +1,7 @@
 # pyvec
 
+Pyvec a pure python implementation of c++ vector wich supports iterators (begin() end()) and more
+
 # Installing pyvec
 
 ```bash

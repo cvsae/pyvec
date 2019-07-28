@@ -5,7 +5,10 @@ sys.path.insert(0,parentdir)
 
 from vector import *
 
-
+try:
+    xrange
+except NameError:
+    xrange = range
 
 
 def main():
@@ -21,7 +24,7 @@ def main():
     # ================Print all element using begin() & end()==========================
     v = v1.begin()
     while v != v1.end():
-        print v[0]
+        print (v[0])
         v +=1
 
 

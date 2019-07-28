@@ -5,10 +5,7 @@ sys.path.insert(0,parentdir)
 
 from vector import *
 
-try:
-    xrange
-except NameError:
-    xrange = range
+
 
 
 def main():

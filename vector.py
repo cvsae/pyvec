@@ -4,5 +4,10 @@
 
 from iters import *
 
+try:
+    xrange
+except NameError:
+    xrange = range
+
 class Vector(list, Iterable):
   pass
